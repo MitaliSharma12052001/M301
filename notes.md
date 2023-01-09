@@ -28,13 +28,11 @@ every **cauchy** sequence **converges** in the space.
 
 
 
-for  $\epsilon=1 \gt 0$  $\exists $ N $\in \mathbb{N}$ st $\forall$ $m,n \ge N$ we have $|x_n - x_m|lt 1$
+for  $\epsilon=1 \gt 0$ $\exists$ N $\in \mathbb{N}$ st $\forall$ $m,n \ge N$ we have $|x_n - x_m|lt 1$
 
 in particular,
 
-
-
-$|x_n - x_N|\lt 1 $ $\implies$ $x_N-1\lt x_n\lt x_N+1$ $\forall$  $n \ge N$
+$|x_n - x_N|\lt 1$ $\implies$ $x_N-1\lt x_n\lt x_N+1$ $\forall$  $n \ge N$
 
 set $a:=\min\{x_1,x_2,\dots,x_{N-1},x_N-1\}$ , $b:=\max\{x_1,x_2,\dots,x_{N-1},x_N+1\}$
 
