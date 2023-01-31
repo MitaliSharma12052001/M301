@@ -78,7 +78,7 @@ we get $a_ib_i\le$  $\frac{1}{2}$ $(\frac{|x_i|^2}{||\mathbf{x}||^2}$ $+$  $\fra
 
 giving
 
-$\Sigma \frac{|x_iy_i|}{||\mathbf{x}||||\mathbf{y}||}$  $\le \Sigma$ $\frac{1}{2}(\frac{|x_i}|^2]{||\mathbf{x}||^2}$ $+$ $\frac{|y_i|^2}{||\mathbf{y}||^2})$ $=1$
+$\Sigma \frac{|x_iy_i|}{||\mathbf{x}||||\mathbf{y}||}$  $\le \Sigma$ $\frac{1}{2}(\frac{|x_i|^2}{||\mathbf{x}||^2}$ $+$ $\frac{|y_i|^2}{||\mathbf{y}||^2})$ $=1$
 i.e, $\Sigma |x_iy_i|\le$ $||\mathbf{x}||||\mathbf{y}||$
 ### Remark / Corollory
 if $\{x_n\}, \{y_n\}$ are square-summable sequnces in $\mathbb{R}$ or $\mathbb{C}$ then,
@@ -90,7 +90,7 @@ $\Sigma|x_iy_i| \le ||\{x_n\}||_ 2||{y_n}||_ 2$
 ### proposition
 $(\Sigma|xi+y_i|^p)^{1/p}$ $\le$ $||x_i||_ p + ||y_i||_ p$ 
 ### proof for p=2
-$\Sigma|xi+y_i|^2$ $=$  $\Sigma(|xi+y_i|)(|x_i+y_i|)$ $\le$ $\Sigma(|xi+y_i|)(|x_i|+|y_i|)$  $ $  \le$ $\Sigma(|x_i+y_i|(||\mathbf{x}||_ 2+||\mathbf{y}_ 2||)$ $\le$ $||\mathbf{x}||_ 2+||\mathbf{y}_ 2||$
+$\Sigma|xi+y_i|^2$ $=$  $\Sigma(|xi+y_i|)(|x_i+y_i|)$ $\le$ $\Sigma(|xi+y_i|)(|x_i|+|y_i|)$  $$ $$  \le$ $\Sigma(|x_i+y_i|(||\mathbf{x}||_ 2+||\mathbf{y}_ 2||)$ $\le$ $||\mathbf{x}||_ 2+||\mathbf{y}_ 2||$
 ### generalization
 indexing set becomes $\mathbb{R}$ leads to integrability
 
@@ -143,7 +143,7 @@ $2*\int_0^{\infty}e^{-\pi x^2}dx$ $=\int_0^{\infty}e^{-\pi x^2}dx$ $+\int_0^{\in
 $=\int_0^{\infty}e^{-\pi x^2}dx - \int_0^{-\infty}e^{-\pi x^2}dx$  $=\int_0^{\infty}e^{-\pi x^2}dx + \int_{-\infty}^0e^{-\pi x^2}dx$  $=\int_{-\infty}^{\infty}e^{-\pi x^2}dx$
 ### computation
 
-$(\int_{-\infty}^{\infty}e^{-\pi x^2}dx)^2=$\int_{-\infty}^{\infty}e^{-\pi x^2}dx*\int_{-\infty}^{\infty}e^{-\pi y^2}dy$ $=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}e^{-\pi (x^2+y^2)}dx$ $\because$ no co-dependency of functions in integral.
+$(\int_{-\infty}^{\infty}e^{-\pi x^2}dx)^2=$$\int_{-\infty}^{\infty}e^{-\pi x^2}dx*\int_{-\infty}^{\infty}e^{-\pi y^2}dy$ $=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}e^{-\pi (x^2+y^2)}dx$ $\because$ no co-dependency of functions in integral.
 
 $=\int_{0}^{2\pi}\int_{0}^{\infty}e^{-\pi (r^2)}rdrd\theta$ , transforming the rectangular measure $dxdy$ to the sector $rdrd\theta$, Jacobian being $\begin{bmatrix} cos\theta & -rsin\theta \\  sin\theta & rcos\theta \\ \end{bmatrix}$
 
@@ -256,7 +256,7 @@ so that $z:=x+y\in M+N$
 
 but this $z$ is the limit of $\{z_n\}$
 
-since $|z_m-z|^2=|x_m+y_m-x-y|^2=|(x_m-x)+(y_m-y)|^2=|x_m-x|^2+|y_m-y|^2$\rightarrow 0$
+since $|z_m-z|^2=|x_m+y_m-x-y|^2=|(x_m-x)+(y_m-y)|^2=|x_m-x|^2+|y_m-y|^2$$\rightarrow 0$
 ### Decompositionm                 
 #### proposition
 $H=M\oplus M^{\perp}$
