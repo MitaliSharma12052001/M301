@@ -54,7 +54,7 @@ giving $x_n$ is bounded.
 ### monotonicity
 also, ${x_n}$ is decreasing, because
 
-$x_{n+1}-x_n=$ $\frac{1}{n+1}$ $-log{1-\frac{1}{n+1}$ $ =\frac{1}{n+1}-(\frac{1}{n+1}+ \frac{1}{2(n+1)^2}+\dots)\lt 0$
+$x_{n+1}-x_n=$ $\frac{1}{n+1}$ $-log(1-\frac{1}{n+1})$ $ =\frac{1}{n+1}-(\frac{1}{n+1}+ \frac{1}{2(n+1)^2}+\dots)\lt 0$
 
 ### Euler's Constant
 now $x_n$ converges, to say $\gamma$ $\in [\frac{\pi^2}{12} -\frac{1}{2}, \frac{\pi^2}{12}]$
@@ -72,13 +72,13 @@ first note that for any reals $a\ge 0, b\ge 0$ we have $(a-b)^2\ge 0$
 
 that is $a^2+b^2\ge 2ab$
 
-now, putting $a_i:=\frac{|x_i|]{||\mathbf{x}||}$ and $b_i:=\frac{|y_i|{||\mathbf{y}||}$
+now, putting $a_i:=\frac{|x_i|}{||\mathbf{x}||}$ and $b_i:=\frac{|y_i|}{||\mathbf{y}||}$
 
-we get $a_ib_i\le$  $\frac{1}{2}$ $(\frac{|x_i|^2]{||\mathbf{x}||^2}$ $+$  $\frac{|y_i|^2]{||\mathbf{y}||^2})$
+we get $a_ib_i\le$  $\frac{1}{2}$ $(\frac{|x_i|^2}{||\mathbf{x}||^2}$ $+$  $\frac{|y_i|^2}{||\mathbf{y}||^2})$
 
 giving
 
-$\Sigma \frac{|x_iy_i|}{||\mathbf{x}||||\mathbf{y}||}$  $\le \Sigma$ $\frac{1}{2}(\frac{|x_i|^2]{||\mathbf{x}||^2}$ $+$ $\frac{|y_i|^2]{||\mathbf{y}||^2})$ $=1$
+$\Sigma \frac{|x_iy_i|}{||\mathbf{x}||||\mathbf{y}||}$  $\le \Sigma$ $\frac{1}{2}(\frac{|x_i}|^2]{||\mathbf{x}||^2}$ $+$ $\frac{|y_i|^2}{||\mathbf{y}||^2})$ $=1$
 i.e, $\Sigma |x_iy_i|\le$ $||\mathbf{x}||||\mathbf{y}||$
 ### Remark / Corollory
 if $\{x_n\}, \{y_n\}$ are square-summable sequnces in $\mathbb{R}$ or $\mathbb{C}$ then,
